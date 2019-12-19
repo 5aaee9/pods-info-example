@@ -8,4 +8,4 @@ RUN pip install -r /app/requirements.txt
 COPY app /app
 
 ENTRYPOINT [ "python" ]
-CMD [ "/app/app/api.py" ]
+CMD [ "/app/api.py" ]
